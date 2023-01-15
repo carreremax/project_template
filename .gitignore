@@ -1,0 +1,31 @@
+## Pycharm files
+.idea
+
+# Byte-compiled / optimized / DLL files / C dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.ipynb_checkpoints
+
+# Project structure
+data
+env
+models
+
+# Common data files
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.avi
+*.mp4
+
+# Commonly used format for model export
+*.pkl
+*.pt
+*.ckpt
+*.meta
+*.zip
+*.tar.gz
+

@@ -1,0 +1,12 @@
+name: project_template
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - tensorflow-gpu
+  - pandas
+  - jupyter
+  - notebook
+  - opencv
+  - pyyaml
+  - seaborn

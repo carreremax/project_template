@@ -1,0 +1,3 @@
+name: example_model
+dataset : data/example.csv
+output_dir: runs
