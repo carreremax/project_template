@@ -34,9 +34,8 @@ used is relative to the project root directory.
 - Example for notebooks:
 
   
-    jupyter notebook --notebook-dir=.
-Then go to ./notebook to create new notebooks or use existing ones.
-
+    jupyter notebook 
+Then go to ./notebook and launch the one you want.
 
 ## Project structure
 

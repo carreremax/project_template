@@ -4,13 +4,14 @@ import yaml
 
 @dataclass
 class ExperimentConf:
-    name: str
-    conf_path: None
+    conf_path: str = None
+    name: str = "Experiment example"
     dataset: str = "data/example.csv"
     output_dir: str = "runs"
 
-    def __init__(self, config_file):
+    def __init__(self, config_file=None):
         self.conf_path = config_file
-        with open(config_file, 'r') as f:
-            params = yaml.safe_load(f)
-            self.__dict__.update(params)
+        if self.conf_path is not None:
+            with open(config_file, 'r') as f:
+                params = yaml.safe_load(f)
+                self.__dict__.update(params)
