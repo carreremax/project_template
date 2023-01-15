@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from pathlib import Path
 import yaml
 
 
@@ -15,4 +14,3 @@ class ExperimentConf:
         with open(config_file, 'r') as f:
             params = yaml.safe_load(f)
             self.__dict__.update(params)
-
